@@ -194,7 +194,9 @@ The famous wizard has returned BUT WE WIF HAT. Join the acoustic adventures of $
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
   // Detect when sections come into view
-  window.addEventListener('mouseover', function() {
+
+  
+  window.addEventListener('touchmove', function() {
     document.querySelectorAll('.section').forEach(function(section) {
       if (isElementInViewport(section)) {
         section.classList.add('visible');
