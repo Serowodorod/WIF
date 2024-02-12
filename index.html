@@ -81,6 +81,19 @@ a {
     .section.visible {
       opacity: 1;
     }
+
+    p{
+  background: linear-gradient(90deg, yellow, orange, red );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textflow 5s linear infinite;
+}
+@keyframes textflow {
+  from {background-position: 0% center}         
+  to {background-position: 200% center}
+} 
     
 
    
