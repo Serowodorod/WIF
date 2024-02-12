@@ -125,7 +125,7 @@ a {
    <img src="1.png" style="height: 350px; width: 310px;">
     </div>
     
-    <div class="col-md-6 section section3">
+    <div class="col-md-6 ">
       <h2  style="color:white;  font-size: 50px; "><font color="#252A34">W</font>
             <font color="#753422">H</font>
             <font color="#FFD523">O</font>WE ARE!</h2>
@@ -140,7 +140,7 @@ The famous wizard has returned BUT WE WIF HAT. Join the acoustic adventures of $
 
 <div class="container">
   <div class="row mt-5">
-    <div class="col-md-6 section section1">
+    <div class="col-md-6 ">
       <h2 style="color:white;  font-size: 50px; "><font color="#252A34">W</font>
             <font color="#753422">H</font>
             <font color="#FFD523">O</font> WE ARE!</h2>
@@ -196,7 +196,7 @@ The famous wizard has returned BUT WE WIF HAT. Join the acoustic adventures of $
   // Detect when sections come into view
 
   
-  window.addEventListener('scroll', 'touchmove', function() {
+  window.addEventListener('scroll', function() {
     document.querySelectorAll('.section').forEach(function(section) {
       if (isElementInViewport(section)) {
         section.classList.add('visible');
