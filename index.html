@@ -196,7 +196,7 @@ The famous wizard has returned BUT WE WIF HAT. Join the acoustic adventures of $
   // Detect when sections come into view
 
   
-  window.addEventListener('touchmove', function() {
+  window.addEventListener('scroll', 'touchmove', function() {
     document.querySelectorAll('.section').forEach(function(section) {
       if (isElementInViewport(section)) {
         section.classList.add('visible');
