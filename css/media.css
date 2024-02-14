@@ -2,27 +2,21 @@
 
 
 
-	#CA{
-font-size: 10px;
+h2 {
+    font-size: 85px!important;
+}
 
-
-
-
-	}
 }
 
 @media(max-width: 375px) {
 
 
 
-	#CA{
-font-size: 7px;
+
+}
 
 
 
-
-	}
-}padding-left: 10rem;
 
 @media(max-width: 1199px) {
 
